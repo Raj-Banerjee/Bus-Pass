@@ -5,7 +5,6 @@ const landingPage = () => {
   return (
     <>
     <Banner/>
-    <div>landingPage here</div>
     </>
   )
 }
