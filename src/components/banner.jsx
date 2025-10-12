@@ -13,16 +13,7 @@ const banner = () => {
         </div>
         <NotificationsNoneIcon />
       </div>
-
-      {/* <div className='bg-blue-500 text-white items-center'>
-        <div>Thakurpukur</div>
-        <div className='w-[30%] h-auto'><img src={DoubleArrow} className='w-[30%] h-auto'/></div>
-        <div>Gitanjali Park</div>
-        <div className="flex justify-between ">
-          <div>Office In - 09:30</div>
-          <div>Office Out - 18:30</div>
-        </div>
-      </div> */}
+      
       <div className='px-3 rounded'>
         <div className="bg-gradient-to-r from-[#1a55ee] to-[#6135ca] text-white flex flex-col items-center justify-center text-center p-4 space-y-3 rounded-lg">
           <div>Thakurpukur</div>
