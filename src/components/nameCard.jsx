@@ -61,7 +61,7 @@ const NameCard = () => {
         <div className="justify-items-center text-center">
 
           <div>
-            Route: Thakurpukur to Gitanjali Park And 
+            Route: Thakurpukur to Gitanjali Park and 
           </div>
           <div>Return Via- Taratala</div>
         </div>
