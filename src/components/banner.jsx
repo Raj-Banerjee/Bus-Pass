@@ -1,13 +1,26 @@
-import React from 'react'
+import React, { useState } from 'react'
 import DehazeIcon from '@mui/icons-material/Dehaze';
 import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
 import DoubleArrow from '../images/double-arrow.png';
 
 const banner = () => {
+
+  const [isFullscreen, setIsFullscreen] = useState(false);
+
+  const handleFullscreenToggle = () => {
+    if (!document.fullscreenElement) {
+      document.documentElement.requestFullscreen();
+      setIsFullscreen(true);
+    } else if (document.exitFullscreen) {
+      document.exitFullscreen();
+      setIsFullscreen(false);
+    }
+  };
   return (
     <div>
       <div className="flex items-center justify-between px-4 py-2 bg-[#412b97] text-white">
-        <div className="flex items-center space-x-3">
+        <div className="flex items-center space-x-3"
+        onClick={handleFullscreenToggle}>
           <DehazeIcon />
           <span className="text-lg pl-6">Digital Bus Pass</span>
         </div>
