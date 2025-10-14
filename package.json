@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://rajbanerjee.github.io/bus-pass/",
+  "homepage": "https://raj-banerjee.github.io/Bus-Pass/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
