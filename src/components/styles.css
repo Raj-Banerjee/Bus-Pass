@@ -1,10 +1,5 @@
-.green-border {
-    background: linear-gradient(90deg, #4caf50, #81c784);
-    height: 400%;
-    
-}
-.green-content{
-    background-color: white;
-    border-radius: 50%;
-    height: 40%;
+.content-fonts{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #9e9fa3;
 }

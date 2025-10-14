@@ -16,24 +16,28 @@ const NameCard = () => {
     borderBottom: '1px dashed #d0d3d6',
     height: '50px',
     width: '100%',
+    justifyItems: 'center',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
   }}>
     Confirmed Bus Pass
   </div>
 </div>
 
 
-        <div className="p-4">
-          <div className="flex justify-between">
+        <div className="p-4 content-fonts">
+          <div className="flex justify-between pb-5">
             <div className="justify-items-start">
               <div className="text">Name</div>
-              <div className="text">Shreya Adhikary</div>
+              <div className="text">SHREYA ADHIKARY</div>
             </div>
             <div className="justify-items-end">
               <div className="text">Employee ID</div>
               <div className="text">2470328</div>
             </div>
           </div>
-          <div className="flex justify-between">
+          <div className="flex justify-between pb-5">
             <div className="justify-items-start">
               <div className="text">Bus Stop Name</div>
               <div className="text">Manton Super Market</div>
@@ -43,7 +47,7 @@ const NameCard = () => {
               <div className="text">Both</div>
             </div>
           </div>
-          <div className="flex justify-between">
+          <div className="flex justify-between pb-5">
             <div className="justify-items-start">
               <div className="text">Start Date</div>
               <div className="text">4th Oct, 2025</div>
@@ -54,12 +58,19 @@ const NameCard = () => {
             </div>
           </div>
 
+        <div className="justify-items-center text-center">
+
           <div>
-            {" "}
-            Route: Thakurpukur to Gitanjali Park, And Return Via- Taratala
+            Route: Thakurpukur to Gitanjali Park And 
           </div>
+          <div>Return Via- Taratala</div>
         </div>
+        </div>
+
       </div>
+        <div className="p-1 mx-3 text-center content-fonts" style={{backgroundColor: '#412B97' , color: 'white', borderRadius: '1px'}}>
+            View QR
+        </div>
     </>
   );
 };
