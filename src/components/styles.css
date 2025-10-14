@@ -1,0 +1,10 @@
+.green-border {
+    background: linear-gradient(90deg, #4caf50, #81c784);
+    height: 400%;
+    
+}
+.green-content{
+    background-color: white;
+    border-radius: 50%;
+    height: 40%;
+}
