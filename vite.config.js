@@ -6,9 +6,9 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [
     react({
-    jsxRuntime: 'automatic',
-  }),
-  tailwindcss(),
-],
-base: '/Bus-Pass/'
+      jsxRuntime: 'automatic',
+    }),
+    tailwindcss(),
+  ],
+  base: '/Bus-Pass/', // 👈 Must exactly match your repo name, including capitalization
 })
