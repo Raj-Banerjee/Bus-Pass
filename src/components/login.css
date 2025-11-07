@@ -81,3 +81,10 @@
   .login-form { background: #111; border-color: #222; color: #ddd }
   .login-form input { background: #111; border-color: #333; color: #ddd }
 }
+
+.login-icon {
+  display: block;
+  margin: 0 auto 0 auto;
+  width: 120px;
+  border-radius: 50%;
+}

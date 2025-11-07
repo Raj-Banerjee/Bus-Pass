@@ -4,9 +4,10 @@ import './login.css'
 import LandingPage from '../landingPage'
 import VisibilityOffIcon from '@mui/icons-material/VisibilityOff';
 import VisibilityIcon from '@mui/icons-material/Visibility';
+import loginIcon from '../images/login-icon.jpg';
 
-const DEFAULT_USER = 'admin'
-const DEFAULT_PASS = 'password123'
+const DEFAULT_USER = 'rinky'
+const DEFAULT_PASS = 'ilovebubu'
 
 const Login = () => {
   const [userId, setUserId] = useState()
@@ -38,6 +39,7 @@ const Login = () => {
   return (
     <div className="login-container">
       <form className="login-form" onSubmit={handleSubmit}>
+        <img src={loginIcon} alt="Login Icon" className="login-icon" />
         <h2>Sign in</h2>
 
         <label htmlFor="userId">User ID</label>
