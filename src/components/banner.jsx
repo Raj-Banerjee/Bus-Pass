@@ -47,7 +47,7 @@ const banner = () => {
         <NotificationsNoneIcon />
       </div>
       
-      <div className='px-3 rounded'>
+      <div className='px-3 pt-3 rounded'>
         <div className="bg-gradient-to-r from-[#1a55ee] to-[#6135ca] text-white flex flex-col items-center justify-center text-center p-4 space-y-3 rounded-lg">
           <div>Thakurpukur</div>
 

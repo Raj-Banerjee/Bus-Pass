@@ -6,7 +6,7 @@ import VisibilityOffIcon from '@mui/icons-material/VisibilityOff';
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import loginIcon from '../images/login-icon.jpg';
 
-const DEFAULT_USER = 'rinky'
+const DEFAULT_USER = 'Rinky'
 const DEFAULT_PASS = 'ilovebubu'
 
 const Login = () => {

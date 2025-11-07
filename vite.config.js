@@ -10,5 +10,8 @@ export default defineConfig({
     }),
     tailwindcss(),
   ],
-  base: '/Bus-Pass/', // 👈 Must exactly match your repo name, including capitalization
+  base: '/Bus-Pass/', 
+  server: {
+    host: true,
+  },
 })

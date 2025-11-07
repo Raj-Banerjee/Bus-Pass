@@ -1,11 +1,12 @@
 import React from 'react'
 import tcsLogo from '../images/TCS_Logo.jpg'
+import './footer.css'
 
 const Footer = () => {
   return (
-    <div>
-        <img src={tcsLogo} alt="TCS Logo" className="w-50 h-auto mx-auto my-4" />
-    </div>
+    <footer className="app-footer mt-3 ">
+      <img src={tcsLogo} alt="TCS Logo" className="tcs-logo" />
+    </footer>
   )
 }
 

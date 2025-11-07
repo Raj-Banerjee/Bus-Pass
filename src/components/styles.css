@@ -3,3 +3,22 @@
     font-weight: 400;
     color: #9e9fa3;
 }
+
+/* Layout helpers for landing page */
+.page-root {
+    /* min-height: 100vh;  */
+    display: flex;
+    flex-direction: column;
+}
+
+.page-content {
+    flex: 1 0 auto; /* take remaining space so footer is pushed to bottom */
+}
+
+.app-footer {
+    flex-shrink: 0;
+    padding: 0.5rem 0;
+    background: transparent;
+}
+
+.tcs-logo { display: block; margin: 0 auto; max-width: 120px; height: auto }
