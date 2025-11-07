@@ -1,0 +1,83 @@
+/* Basic styles for the Login component */
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.login-form {
+  width: 320px;
+  padding: 1.5rem;
+  border: 1px solid #e6e6e6;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.login-form h2 {
+  margin: 0 0 0.75rem 0;
+  text-align: center;
+}
+
+.login-form input {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.password-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.password-wrapper input {
+  width: 100%;
+  padding-right: 2.5rem;
+}
+
+.password-toggle {
+  position: absolute;
+  right: 0.5rem;
+  background: transparent;
+  border: none;
+  padding: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.password-toggle { display: block }
+
+.login-button {
+  margin-top: 0.5rem;
+  padding: 0.6rem 0.75rem;
+  background: #0b5cff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-message {
+  margin-top: 0.5rem;
+  color: #d9534f;
+  text-align: center;
+}
+
+.login-hint {
+  margin-top: 0.75rem;
+  font-size: 0.85rem;
+  color: #666;
+  text-align: center;
+}
+
+@media (prefers-color-scheme: dark) {
+  .login-form { background: #111; border-color: #222; color: #ddd }
+  .login-form input { background: #111; border-color: #333; color: #ddd }
+}
