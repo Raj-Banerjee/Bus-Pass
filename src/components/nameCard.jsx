@@ -50,11 +50,11 @@ const NameCard = () => {
           <div className="flex justify-between pb-5">
             <div className="justify-items-start">
               <div className="text">Start Date</div>
-              <div className="text">4th Nov, 2025</div>
+              <div className="text">1st Apr, 2026</div>
             </div>
             <div className="justify-items-end">
               <div className="text">End Date</div>
-              <div className="text">30th Nov, 2025</div>
+              <div className="text">30th Apr, 2026</div>
             </div>
           </div>
 
