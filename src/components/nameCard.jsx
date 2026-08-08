@@ -2,6 +2,23 @@ import React from "react";
 import "./styles.css";
 
 const NameCard = () => {
+  const today = new Date();
+  const start = new Date(today.getFullYear(), today.getMonth(), 1);
+  const end = new Date(today.getFullYear(), today.getMonth() + 1, 0);
+
+  const monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  const ordinal = (n) => {
+    const j = n % 10, k = n % 100;
+    if (j === 1 && k !== 11) return 'st';
+    if (j === 2 && k !== 12) return 'nd';
+    if (j === 3 && k !== 13) return 'rd';
+    return 'th';
+  };
+  const formatDate = (d) => `${d.getDate()}${ordinal(d.getDate())} ${monthNames[d.getMonth()]}, ${d.getFullYear()}`;
+
+  const startDate = formatDate(start);
+  const endDate = formatDate(end);
+
   return (
     <>
       <div className="m-4  border-gray-300 rounded-lg shadow-md space-y-4">
@@ -50,11 +67,11 @@ const NameCard = () => {
           <div className="flex justify-between pb-5">
             <div className="justify-items-start">
               <div className="text">Start Date</div>
-              <div className="text">1st Apr, 2026</div>
+              <div className="text">{startDate}</div>
             </div>
             <div className="justify-items-end">
               <div className="text">End Date</div>
-              <div className="text">30th Apr, 2026</div>
+              <div className="text">{endDate}</div>
             </div>
           </div>
 
